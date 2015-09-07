@@ -30,6 +30,7 @@
 
 </head>
 
+
 	<body>
 		<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -42,16 +43,35 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#home">경희대학교 SoftCon</a>
+            <a class="navbar-brand page-scroll" href="#home">
+              <img style="max-width:150px; margin-top: -15px;" src="../img/logo.gif"/>
+              경희대학교 SoftCon
+            </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-            	<li>
-                    <a class="page-scroll" href="#about">SoftCon 소개</a>
+        <div class="navbar-right" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            	<li class=dropdown>
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">
+                      SoftCon
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a class="page-scroll" href="#about-opening">여는 말</a></li>
+                      <li><a class="page-scroll" href="#about-opening">행사 개요</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                <li class=dropdown>
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">
+                      프로그램
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">발표자 모집</a></li>
+                      <li><a href="#">행사 일정</a></li>
+                      <li><a href="#">프로그램 목록</a></li>
+                      <li><a href="#">발표자</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -90,64 +110,41 @@
 </section>
 
 		    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about-opening" class="container content-section text-left">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
               <br/><br/>
-              <h2>경희대학교 SoftCon 소개</h2>
+              <h2>여는 말</h2>
               <br/>
-                <p>소프트콘 만세!</p>
-                <p>The Jekyll version is brought to you by <a href="https://github.com/swcool">Shane Weng</a></p>
-                <p>This theme features stock photos by <a href="http://join.deathtothestockphoto.com//">Death to the Stock Photo</a>.</p>
-                <p>Landing-Page includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <p>SoftCon은 경희대학교 컴퓨터공학과에서 주관하는 대학생들만의 IT 컨퍼런스입니다.</p>
+                <p>최근들어 정말 많은 IT 공모전과 대회들이 생겨나고있고, 20대에 스타트업으로 창업하는 사례도 많아지고 있습니다</p>
+                <p>저희는 그 분들의 경험을 듣고 싶었습니다. 그 분들이 만든 서비스가 어떤 기술로 만들어져 있는지 알고 싶었습니다.</p>
+                <p>그래서 경험과 기술을 공유할 수 있는 컨퍼런스를 만들었습니다.</p>
+                <p>이 컨퍼런스를 통해 많은 대학생들이 다양한 사람들의 경험을 듣고 기술을 배웠으면 합니다.</p>
+                <p>그리고 배운 것을 활용하여 더 나은 세상을 만들기 위해 노력해줄 것을 믿습니다.</p>
                 <br/>
+                <p>그 첫 번째 시도를 지금 시작합니다.</p>
+              <br/>
               </div>
         </div>
     </section>
 
-		<section id="services">
-<!-- Page Content -->
-
-  
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Welcome to Jekyll!</h2>
-                    <div class="lead"><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
-
-</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/" alt="">
-                </div>
-            </div>
-
+    <section id="about-intro" class="container content-section text-left">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <br/>
+          <h2>SoftCon 행사 개요</h2>
+          <br/>
+          <ul role="list">
+            <li class="ullist" role="listitem"><strong>일정</strong> : 2015년 11월 14일 (토)</li>
+            <li class="ullist" role="listitem"><strong>장소</strong> : 경희대학교 전자정보대학</li>
+            <li class="ullist" role="listitem"><strong>주최</strong> : 경희대학교 컴퓨터공학과</li>
+            <li class="ullist" role="listitem"><strong>대상</strong> : 대학생이면 누구나</li>
+          </ul>
+        </br/>
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    
-
-</section>
+      </div>
+    </section>
 
 		<section id="contact">
 	<div class="banner">
@@ -155,12 +152,7 @@
 
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Keep in Touch:</h2>
-				</div>
-				<div class="col-lg-6">
-					<ul class="list-inline banner-social-buttons">
-						
-					</ul>
+					<h2>배워서 남주자:</h2>
 				</div>
 			</div>
 
@@ -170,6 +162,7 @@
 	</div>
 </section>
 <!-- /.banner -->
+
 		<!-- Footer -->
 <footer>
     <div class="container">

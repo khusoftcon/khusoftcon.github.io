@@ -57,6 +57,11 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.ullist {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -131,6 +136,10 @@ h6 {
     margin-top: 0;
 }
 
+.dropdown-backdrop{
+    position: static;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -163,6 +172,7 @@ footer {
 
 p {
   font-size: 20px;
+  font-weight: 200;
 }
 
 p.copyright {
