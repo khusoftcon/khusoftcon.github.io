@@ -3,3 +3,19 @@ layout: static_page
 title: 공지사항
 static: true
 ---
+{% for post in site.posts %}
+  <dl>
+    <dt>
+      <h2>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+
+      </h2>
+      <span class="datetime">{{ post.date }}</span>
+    </dt>
+    <br/>
+    <dd>
+      {{ post.excerpt }}
+    </dd>
+  </dl>
+  <hr>
+{% endfor %}
