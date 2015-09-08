@@ -149,8 +149,8 @@ h6 {
     overflow: hidden;
 }
 .navbar {
-    padding: 10px 0;
-    margin-bottom: 0px !important;
+    position: relative;
+    margin-bottom: 10px !important;
     background: none;
     border: 0;
     border-radius: 0;
