@@ -140,6 +140,42 @@ h6 {
     position: static;
 }
 
+.titlebar {
+    position: relative;
+    padding: 2px 0 10px 0;
+    background: #FAFAFA;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    overflow: hidden;
+}
+.navbar {
+    padding: 10px 0;
+    margin-bottom: 0px !important;
+    background: none;
+    border: 0;
+    border-radius: 0;
+}
+
+.sponsors{
+    width: 100%;
+    max-width: 400px;
+}
+
+.sponsors-2 {
+  width: 100%;
+  max-width: 200px;
+}
+
+.sponsors li {
+    list-style: none;
+    width: 100%;
+}
+
+.sponsors img {
+    width: 100%;
+    height: auto;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
