@@ -37,8 +37,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
@@ -148,6 +148,11 @@ h6 {
     border-bottom: 1px solid #E7E7E7;
     overflow: hidden;
 }
+
+.post p{
+  font-size: 17px;
+}
+
 .navbar {
     position: relative;
     margin-bottom: 10px !important;

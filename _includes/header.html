@@ -26,6 +26,7 @@
                       <li><a href="/notice.html">공지사항</a></li>
                       <li><a class="page-scroll" href="/#about-opening">여는 말</a></li>
                       <li><a class="page-scroll" href="/#about-intro">행사 개요</a></li>
+                      <li><a href="{% post_url 2015-09-10-staff-introduction %}">운영위원회</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -34,14 +35,17 @@
                       <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#">발표자 모집</a></li>
-                      <li><a href="#">행사 일정</a></li>
-                      <li><a href="#">프로그램 목록</a></li>
-                      <li><a href="#">발표자</a></li>
+                      <li><a href="{% post_url 2015-09-09-call-for-speaker %}">발표자 모집</a></li>
+                      <li><a href="/schedule.html">행사 일정</a></li>
+                      <li><a href="/program.html">프로그램 목록</a></li>
+                      <li><a href="/speakers.html">발표자</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#">Contact</a>
+                  <a href="#"> 오시는 길 </a>
+                </li>
+                <li>
+                    <a href="/register.html">참가신청</a>
                 </li>
             </ul>
         </div>
