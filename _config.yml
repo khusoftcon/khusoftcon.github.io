@@ -2,10 +2,15 @@
 title: 경희대학교 SoftCon
 email: khusoftcon@gmail.com
 description: > # Kyunghee University Conference.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://khusoftcon.github.io" # the base hostname & protocol for your site
+baseurl: /
+url: http://khusoftcon.github.io
 
 # Build settings
 markdown: kramdown
 
 excerpt_separator: <!--more-->
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+lsi:         false
