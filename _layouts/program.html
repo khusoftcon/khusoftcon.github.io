@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<ul class="list-group">
+  <li class="list-group-item"><img src='/img/tag_blue.png'/>{{ page.part }}</li>
+  <li class="list-group-item"><img src='/img/clock.png'/>{{ page.when }}</li>
+  <li class="list-group-item"><img src='/img/house.png'/>{{ page.where }}</li>
+  <li class="list-group-item"><img src='/img/user.png'/>{{ page.speaker }}</li>
+  <li class="list-group-item"><img src='/img/sound.png'/>{{ page.notice }}</li>
+</ul>
+
+<h3>설명</h3>
+{{ content }}
+
+<br/><br/>
+<h3>댓글</h3>
+{% include comments.html %}

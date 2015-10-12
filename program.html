@@ -3,4 +3,15 @@ layout: static_page
 title: 프로그램 목록
 static: true
 ---
-<h2> 현재 준비중입니다. </h2>
+
+
+<div class="alert alert-warning">프로그램 소개가 변경될 수 있습니다</div>
+<ul>
+{% for post in site.categories.programs %}
+<li class="intro-program"><h4>
+<a href="{{ post.url }}">{{ post.title }}</a>
+
+<img src="/img/user.png"/>{{ post.speaker}}
+</h4></li>
+{% endfor %}
+</ul>

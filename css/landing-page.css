@@ -181,6 +181,22 @@ h6 {
     height: auto;
 }
 
+.list-group-item {
+    font-size: 120%;
+}
+
+.list-group-item img{
+    margin-right: 20px;
+}
+
+.intro-program a{
+  margin-right: 10px;
+}
+
+.intro-program img{
+  margin-right: 10px;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
