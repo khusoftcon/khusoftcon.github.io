@@ -7,11 +7,11 @@ static: true
 
 <div class="alert alert-warning">프로그램 소개가 변경될 수 있습니다</div>
 <ul>
-{% for post in site.categories.programs %}
+{% for post in site.categories.programs reversed %}
 <li class="intro-program"><h4>
 <a href="{{ post.url }}">{{ post.title }}</a>
 
-<img src="/img/user.png"/>{{ post.speaker}}
+<div><img src="/img/user.png"/>  {{ post.speaker}}</div>
 </h4></li>
 {% endfor %}
 </ul>
