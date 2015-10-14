@@ -5,7 +5,7 @@ date:   2015-10-07 15:33:47 +0900
 categories: programs
 part: IoT
 when: "2015-11-14(토요일) 15:00 - 15:50"
-where: 대회의실
+where: 미정
 speaker: 한상윤 (경희대학교 컴퓨터공학과 동아리 'N.E.T')
 notice: 3~4학년 대상
 static: true

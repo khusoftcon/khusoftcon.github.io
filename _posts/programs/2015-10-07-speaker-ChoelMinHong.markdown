@@ -5,7 +5,7 @@ date:   2015-10-07 15:33:47 +0900
 categories: programs
 part: IoT
 when: "2015-11-14(토요일) 16:00 - 16:50"
-where: 대회의실
+where: 미정
 speaker: 홍철민(경희대학교 컴퓨터공학과 동아리 'T.G.Wings')
 notice: 1-2학년 대상
 static: true

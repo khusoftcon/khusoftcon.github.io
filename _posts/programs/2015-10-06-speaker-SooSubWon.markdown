@@ -5,7 +5,7 @@ date:   2015-10-07 15:30:47 +0900
 categories: programs
 part: 스타트업
 when: "2015-11-14(토요일) 13:20 - 14:00"
-where: 대회의실
+where: 미정
 speaker: 원수섭 (네이버)
 notice: 전학년 대상
 static: true

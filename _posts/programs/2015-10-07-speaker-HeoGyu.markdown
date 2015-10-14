@@ -5,7 +5,7 @@ date:   2015-10-07 15:31:47 +0900
 categories: programs
 part: 보안
 when: "2015-11-14(토요일) 14:10 - 14:50"
-where: 대회의실
+where: 미정
 speaker: 허규 (네이버)
 notice: 전학년 대상
 static: true

@@ -5,7 +5,7 @@ date:   2015-10-07 15:33:47 +0900
 categories: programs
 part: 웹서비스
 when: "2015-11-14(토요일) 17:00 - 17:50"
-where: 대회의실
+where: 미정
 speaker: 방신우 (경희대학교 컴퓨터공학과 동아리 'N.E.T')
 notice: 1~2학년 대상
 static: true
