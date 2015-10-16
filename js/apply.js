@@ -48,6 +48,11 @@ function onSubmit() {
 
 function registerCheck() {
 
+  if ( !validateEmail($("#email").val())){
+    alert('이메일 형식이 올바르지 않습니다.');
+    return false;
+  }
+
   var data={
     email: $("#email").val()
   }
