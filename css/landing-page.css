@@ -161,6 +161,13 @@ h6 {
     border-radius: 0;
 }
 
+.khukhu {
+  width: 350px;
+  height: 350px;
+  max-height: 350px;
+  max-width: 350px;
+}
+
 .sponsors{
     width: 100%;
     max-width: 400px;

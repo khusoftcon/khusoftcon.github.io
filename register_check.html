@@ -1,0 +1,33 @@
+---
+layout: static_page
+title: 참가 신청 확인
+static: true
+---
+
+<div class="row centered-form">
+
+  <div class="col-xs-12 col-sm-8 col-md-8 col-sm-offset-2" id="registerform">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title text-center">경희대학교 제1회 SoftCon 참가 신청 확인</h3>
+      </div>
+      <div class="panel-body">
+
+        <div class="form-group">
+          <label class="control-label" for="email">등록시 입력한 E-Mail을 입력해주세요</label>
+          <div class="controls">
+            <input id="email" name="email" type="email" placeholder="E-Mail" class="input-large">
+          </div>
+        </div>
+        <button type="button" onclick="registerCheck()" class="btn btn-info btn-block">확인하기</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.centered-form .panel {
+  background: rgba(255, 255, 255, 0.8);
+}
+</style>
