@@ -21,7 +21,7 @@ function onSubmit() {
     name: $("#name").val(),
     email: $("#email").val(),
     school: $("#school").val(),
-    grade: document.getElementById('grade').value,
+    grade: $('input[name=grade]:checked').val(),
     wantstr: wants
   }
 
