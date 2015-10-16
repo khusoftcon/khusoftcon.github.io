@@ -8,6 +8,13 @@ function onSubmit() {
     alert('이메일 형식이 올바르지 않습니다.');
     return false;
   }
+  var inputs = document.getElementsByTagName('input');
+  for ( index = 0; index < inputs.length; index++) {
+    if (inputs[index].value == null || inputs[index].value == '') {
+        alert('비어있는 항목이 있습니다. 모두 채워주세요.');
+        return false;
+    }
+  }
   var wants = '['
 
   $(":checkbox").each(function () {
