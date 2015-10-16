@@ -68,8 +68,8 @@ function registerCheck() {
       code += "<h4> 참가 신청 결과는 11월 2일에 이메일로 알려드립니다. </h4></div><br/>"
       code += "<ul class='list-group'>"
       code += "<li class='list-group-item'>이름 : "+result.name+"</li>"
-      code += "<li class='list-group-item'>이메일 : "+result.email+"</li>"
       code += "<li class='list-group-item'>학교 : "+result.school+"</li>"
+      code += "<li class='list-group-item'>이메일 : "+result.email+"</li>"
       code += "<li class='list-group-item'>학년 : "+result.grade+"학년</li>"
       code += "</ul>"
       $('#registerform').html(code);
