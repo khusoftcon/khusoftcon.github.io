@@ -40,7 +40,8 @@ function onSubmit() {
     data: data,
     success: function(result){
       code = "<div class='text-center'><h3> 참가신청이 완료되었습니다!! </h3><br/>"
-      code += "<h4> 참가 신청 결과는 11월 2일에 이메일로 알려드리겠습니다. </h4>"
+      code += "<h4> 행사 당일 이름, 학교, 이메일을 제시하여 참가확인을 해주세요.</h4>"
+      code += "<h4> <a href='https://www.facebook.com/khusoftcon'>경희대학교 SoftCon 페이스북</a>을 통해 소식을 좀 더 빠르게 접해보세요!</h4>"
       code += "<img class='khukhu' src='/img/khukhu.png'/></div>"
       $('#registerform').html(code);
       $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -71,8 +72,9 @@ function registerCheck() {
     async: false,
     data: data,
     success: function(result){
-      code = "<div class='text-center'><h3> 참가 신청자 명단에 있습니다 !!</h3>"
-      code += "<h4> 참가 신청 결과는 11월 2일에 이메일로 알려드립니다. </h4></div><br/>"
+      code = "<div class='text-center'><h3> 참가자로 선정되셨습니다!!</h3>"
+      code += "<h4> 행사 당일 이름, 학교, 이메일을 제시하여 참가확인을 해주세요.</h4>"
+      code += "<h4> <a href='https://www.facebook.com/khusoftcon'>경희대학교 SoftCon 페이스북</a>을 통해 소식을 좀 더 빠르게 접해보세요!</h4></div><br/>"
       code += "<ul class='list-group'>"
       code += "<li class='list-group-item'>이름 : "+result.name+"</li>"
       code += "<li class='list-group-item'>학교 : "+result.school+"</li>"
