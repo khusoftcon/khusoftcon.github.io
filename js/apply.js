@@ -35,7 +35,7 @@ function onSubmit() {
   $.ajax
   ({
     type: 'POST',
-    url: 'http://nb.printf.kr:5003',
+    url: 'http://61.255.4.211:5003',
     async: false,
     data: data,
     success: function(result){
@@ -68,7 +68,7 @@ function registerCheck() {
   $.ajax
   ({
     type: 'POST',
-    url: 'http://nb.printf.kr:5003/check',
+    url: 'http://61.255.4.211:5003/check',
     async: false,
     data: data,
     success: function(result){
