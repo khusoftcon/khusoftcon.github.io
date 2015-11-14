@@ -26,6 +26,15 @@ h6 {
     font-weight: 400;
 }
 
+.program {
+  text-align: left;
+}
+
+.timetable{
+  text-align: center;
+  font-size: 15px;
+}
+
 .intro-header {
     padding-top: 5px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 5px;

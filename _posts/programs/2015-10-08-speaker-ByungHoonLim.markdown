@@ -4,8 +4,8 @@ title:  "병훈이와 함께하는 보안여행"
 date:   2015-10-08 15:33:47 +0900
 categories: programs
 part: 보안
-when: "2015-11-14(토요일) 16:00 - 16:50"
-where: 미정
+when: "2015-11-14(토요일) 16:30 - 17:10"
+where: 220호
 speaker: 임병훈 (경희대학교 컴퓨터공학과)
 notice: 1~2학년 대상
 static: true

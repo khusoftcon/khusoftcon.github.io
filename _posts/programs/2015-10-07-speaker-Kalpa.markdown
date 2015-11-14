@@ -4,8 +4,8 @@ title:  "시각장애인을 위한 아두이노 기반 스마트 시스템"
 date:   2015-10-07 15:33:47 +0900
 categories: programs
 part: IoT
-when: "2015-11-14(토요일) 15:00 - 15:50"
-where: 미정
+when: "2015-11-14(토요일) 15:30 - 16:10"
+where: 211-1호
 speaker: Kalpa 안계완 손성민 이용석 (경희대학교 컴퓨터공학과)
 notice: 1~2학년 대상
 static: true

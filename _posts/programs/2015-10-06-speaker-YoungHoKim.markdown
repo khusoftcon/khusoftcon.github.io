@@ -4,8 +4,8 @@ title:  "스타트업으로 시작하는 컴퓨터공학"
 date:   2015-10-07 15:31:47 +0900
 categories: programs
 part: 스타트업
-when: "2015-11-14(토요일) 16:00 - 16:50"
-where: 미정
+when: "2015-11-14(토요일) 17:30 - 18:10"
+where: 205호
 speaker: 김영호 (경희대학교 컴퓨터공학과 동아리 'D.Com' / 졸업생)
 notice: 전학년 대상
 static: true
