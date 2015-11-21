@@ -9,6 +9,7 @@ where: 211-1호
 speaker: Kalpa 안계완 손성민 이용석 (경희대학교 컴퓨터공학과)
 notice: 1~2학년 대상
 static: true
+slide: http://www.slideshare.net/gbakw/softcon-20151121
 ---
 최근 세계적으로 사물인터넷이 큰 이슈로 떠오르고 있다.
 본 문서에서는 사물인터넷과 블루투스 비콘을 이용한 스마트 지팡이 시스템을 제안하고 구현하고자 한다.  
