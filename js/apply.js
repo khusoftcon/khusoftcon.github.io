@@ -68,7 +68,7 @@ function registerCheck() {
   $.ajax
   ({
     type: 'POST',
-    url: 'http://61.255.4.211:5003/check',
+    url: 'http://61.255.8.206:5003/check',
     async: false,
     data: data,
     success: function(result){
