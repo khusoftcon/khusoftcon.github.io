@@ -9,6 +9,7 @@ where: 220호
 speaker: 홍철민(경희대학교 컴퓨터공학과 동아리 'T.G.Wing')
 notice: 1-2학년 대상
 static: true
+slide: http://www.slideshare.net/ssuser16ebb8/openstack-55356674
 ---
 1-2학년을 대상으로 OpenStack(laaS) 서비스를 소개하기 위한 발표입니다.
 
