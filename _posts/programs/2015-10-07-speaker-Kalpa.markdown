@@ -11,6 +11,9 @@ notice: 1~2학년 대상
 static: true
 slide: http://www.slideshare.net/gbakw/softcon-20151121
 ---
+
+[카카오톡 오픈채팅방](https://open.kakao.com/o/gtPkIBe)
+
 최근 세계적으로 사물인터넷이 큰 이슈로 떠오르고 있다.
 본 문서에서는 사물인터넷과 블루투스 비콘을 이용한 스마트 지팡이 시스템을 제안하고 구현하고자 한다.  
 기존 존재하는 센서 지팡이는 가격이 너무 비쌀 뿐 아니라 국내에서는 판매되고 있지 않다.
