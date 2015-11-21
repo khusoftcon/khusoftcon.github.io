@@ -9,6 +9,7 @@ where: 205호
 speaker: 김영호 (경희대학교 컴퓨터공학과 동아리 'D.Com' / 졸업생)
 notice: 전학년 대상
 static: true
+slide:  http://www.slideshare.net/hemarkum/ss-55068588
 ---
 스타트업과 벤처기업에 대하여 궁금해하는 컴퓨터공학자 분들에게  
 두 기업 안에서 경험한 본인의 이야기와 나아갈 길을 전해드립니다.
