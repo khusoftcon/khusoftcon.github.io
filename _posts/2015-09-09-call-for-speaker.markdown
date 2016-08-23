@@ -7,14 +7,10 @@ static: true
 permalink: /
 ---
 
-<div class="alert alert-info" role="alert">
-제1회 SoftCon 발표자 모집이 종료되었습니다.
-</div>
-
 ### 발표자 지원서 작성
 아래 링크를 클릭하여 지원서를 작성해주시기 바랍니다.
 
-<a href="#"> 지원서 작성하기 </a>
+<a href="https://goo.gl/forms/NZIcBuYEn43ka7by2"> 지원서 작성하기 </a>
 
 ### 발표 주제
 발표 주제에 큰 제약사항은 두지 않습니다. 공모전에 참가한 경험과 거기서 쓰인 기술(오픈소스, 플랫폼 등)에 대한 소개, 창업 경험 그리고 자신이 공부한 것 중 다른 사람들에게 공유하고 싶은
