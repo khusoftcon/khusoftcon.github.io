@@ -4,6 +4,7 @@ title:  "발표자 모집"
 date:   2015-09-09 22:00:00 +0900
 categories: staticpage
 static: true
+permalink: /
 ---
 
 <div class="alert alert-info" role="alert">
