@@ -4,7 +4,7 @@ title:  "발표 지원서를 작성하는 방법"
 date:   2016-09-02 22:00:00 +0900
 categories: staticpage
 static: true
-permalink: /guide
+permalink: guide
 ---
 
 ### 발표안 제안하기
